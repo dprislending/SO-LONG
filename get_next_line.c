@@ -6,11 +6,11 @@
 /*   By: roumbare <roumbare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/03 15:39:44 by roumbare          #+#    #+#             */
-/*   Updated: 2022/06/10 21:25:05 by roumbare         ###   ########.fr       */
+/*   Updated: 2022/06/24 15:56:18 by roumbare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "so_long.h"
 
 char	*ft_line_to_return(char *stock)
 {
@@ -57,7 +57,7 @@ char	*ft_get_stock(char *stock)
 	return (free(stock), line_to_return);
 }
 
-char	*get_next_line(int fd)
+char	*gnl(int fd)
 {
 	static char	*stock;
 	char		*buff;

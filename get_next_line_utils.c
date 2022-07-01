@@ -6,11 +6,11 @@
 /*   By: roumbare <roumbare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/03 15:39:40 by roumbare          #+#    #+#             */
-/*   Updated: 2022/06/10 20:17:49 by roumbare         ###   ########.fr       */
+/*   Updated: 2022/06/24 14:20:31 by roumbare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "so_long.h"
 
 size_t	ft_strlen(const char *s)
 {
